@@ -68,7 +68,7 @@ module.exports = function(options) {
         compiled = tmplFunc.toString();
 
         var prefix = ';(function(){\n';
-        var result = 'window.tpl=windo.tpl||{};\ntpl[\'' + tmplId + '\']=' + compiled + '\n';
+        var result = 'window.tpl=window.tpl||{};\ntpl[\'' + tmplId + '\']=' + compiled + '\n';
         var subfix = '})();';
 
         var file = createFile(mainName, prefix + result + subfix);

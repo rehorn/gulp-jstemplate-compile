@@ -1,6 +1,6 @@
 {
     "name": "gulp-jstemplate-compile",
-    "version": "0.1.2",
+    "version": "0.1.4",
     "description": "jstemplate compile plugin for gulp",
     "main": "index.js",
     "dependencies": {
